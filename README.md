@@ -13,7 +13,7 @@ A fully offline web app that lets you drag and drop multiple PDF files and insta
 
 ## 🖥 How to Use
 
-
+Just download the code and run the index.html file.
 
 ## 📁 Folder Structure
 
