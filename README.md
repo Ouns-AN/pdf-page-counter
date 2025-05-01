@@ -15,19 +15,6 @@ A fully offline web app that lets you drag and drop multiple PDF files and insta
 
 Just download the code and run the index.html file.
 
-## 📁 Folder Structure
-
-```
-pdf-page-counter/
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-├── app.js              # JavaScript logic
-├── pdfjs/              # PDF.js library (locally stored)
-│   ├── pdf.js
-│   └── pdf.worker.js
-└── README.md           # This file
-```
-
 ## 🔐 License
 
 MIT License — free to use, modify, and distribute.
