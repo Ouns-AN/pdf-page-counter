@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Page Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PDF Page Counter</h1>
+    <div id="drop-zone" class="drop-zone">
+      <p>Drag and drop PDF files here</p>
+      <input type="file" id="file-input" accept="application/pdf" multiple>
+      <button id="select-files">Select Files</button>
+    </div>
+    <table id="file-table">
+      <thead>
+        <tr>
+          <th>File Name</th>
+          <th>Page Count</th>
+        </tr>
+      </thead>
+      <tbody id="file-list">
+        <!-- Rows inserted here -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><strong>Total Pages</strong></td>
+          <td id="total-pages">0</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <script src="pdfjs/pdf.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
