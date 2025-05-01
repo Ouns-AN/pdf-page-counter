@@ -1,5 +1,3 @@
-# pdf-page-counter
-Offline web app to count pages in PDF files using PDF.js
 # PDF Page Counter (Offline Web App)
 
 A fully offline web app that lets you drag and drop multiple PDF files and instantly counts their pages using PDF.js — all without uploading anything or requiring internet access.
@@ -15,21 +13,7 @@ A fully offline web app that lets you drag and drop multiple PDF files and insta
 
 ## 🖥 How to Use
 
-1. **Download this repository** or clone it:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/pdf-page-counter.git
-   ```
-2. **Download PDF.js files**:
-   - Go to the [PDF.js Releases Page](https://github.com/mozilla/pdf.js/releases)
-   - Download a version like `pdfjs-3.11.174-dist.zip`
-   - Extract these two files from the `build/` folder:
-     - `pdf.js`
-     - `pdf.worker.js`
-   - Place them in the `pdfjs/` folder of this project.
 
-3. **Open `index.html` in your browser** (double-click it).
-
-   ✅ No need to run a server. It works as a static HTML file.
 
 ## 📁 Folder Structure
 
