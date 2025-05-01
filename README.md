@@ -15,6 +15,11 @@ A fully offline web app that lets you drag and drop multiple PDF files and insta
 
 Just download the code and run the `index.html` file.
 
+## Screenshot from program
+
+![image](https://github.com/user-attachments/assets/58abedb7-bb51-4490-bf42-29e4a03dd40e)
+
+
 ## 🔐 License
 
 MIT License — free to use, modify, and distribute.
